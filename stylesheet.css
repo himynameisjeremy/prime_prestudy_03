@@ -56,102 +56,32 @@ body {
 	font-style: italic;
 }
 
-.Education {
+.Education, .International, .Domestic {
 	transition: color .02 ease-in-out;
 }
 
-.Education:hover {
+.Education:hover, .International:hover, .Domestic:hover {
 	color: red;
 }
 
-.Education H1 {
+.Education H1, .International H1, .Domestic H1 {
 	font-size: 22px;
 	font-weight: bold;
 	font-style: italic;
 }
 
-.Education H2 {
+.Education H2, .International H2, .Domestic H2 {
 	font-size: 16px;
 	font-weight: bold;
 }
 
-.Education H3 {
+.Education H3, .International H3, .Domestic H3 {
 	font-size: 14px;
 	font-style: italic;
 	text-indent: 15px;
 }
 
-.Education li {
-	font-size: 12px;
-}
-
-.International {
-	transition: color .02 ease-in-out;
-}
-
-.International:hover {
-	color:red;
-}
-
-.International H1 {
-	font-size: 22px;
-	font-weight: bold;
-	font-style: italic;
-}
-
-.International H2 {
-	font-size: 16px;
-	font-weight: bold;
-}
-
-.International H3 {
-	font-size: 14px;
-	font-style: italic;
-	text-indent: 15px;
-}
-
-.International H4 {
-	font-size: 14px;
-	font-style: italic;
-	text-indent: 15px;
-}
-
-.International li {
-	font-size: 12px;
-}
-
-.Domestic {
-	transition: color .02 ease-in-out;
-}
-
-.Domestic:hover {
-	color: red;
-}
-
-.Domestic H1 {
-	font-size: 22px;
-	font-weight: bold;
-	font-style: italic;
-}
-
-.Domestic H2 {
-	font-size: 16px;
-	font-weight: bold;
-}
-
-.Domestic H3 {
-	font-size: 14px;
-	font-style: italic;
-	text-indent: 15px;
-}
-
-.Domestic H4 {
-	font-size: 14px;
-	font-style: italic;
-	text-indent: 15px;
-}
-
-.Domestic li {
+.Education li, .International li, .Domestic li {
 	font-size: 12px;
 }
 
